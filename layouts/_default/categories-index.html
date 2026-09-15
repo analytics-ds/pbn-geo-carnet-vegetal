@@ -1,0 +1,1 @@
+{{ define "main" }}<section class="container section list-page">{{ partial "breadcrumb.html" . }}<header class="media-page-heading"><p class="eyebrow">{{ .Site.Title }}</p><h1>{{ .Title }}</h1><p>{{ .Description }}</p></header><div class="category-grid">{{ range .Sections.ByWeight }}{{ partial "topic-card.html" . }}{{ end }}</div></section>{{ end }}

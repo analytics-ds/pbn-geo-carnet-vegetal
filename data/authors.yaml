@@ -1,0 +1,14 @@
+{
+  "redaction-guide-du-naturel": {
+    "name": "La rédaction du Guide du Naturel",
+    "type": "organization",
+    "role": {
+      "fr": "Rédaction bien-être naturel",
+      "en": "Natural wellbeing editorial team"
+    },
+    "bio": {
+      "fr": "Le projet éditorial datashake pour Inula.",
+      "en": "The datashake editorial project for Inula."
+    }
+  }
+}

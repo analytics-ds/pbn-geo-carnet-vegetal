@@ -1,0 +1,9 @@
+{{ $en := eq .Lang "en" }}
+<a href="{{ (cond $en "en/blog/" "blog/") | relURL }}">{{ if $en }}The journal{{ else }}Le journal{{ end }}</a>
+<details class="mega-menu">
+<summary>{{ if $en }}Explore topics{{ else }}Les rubriques{{ end }} <span aria-hidden="true">+</span></summary>
+<div class="mega-panel"><div class="mega-inner">
+<div class="mega-intro"><p class="eyebrow">{{ if $en }}The natural wellbeing journal{{ else }}Le magazine du naturel{{ end }}</p><h2>{{ if $en }}Plants.<br>New perspectives.{{ else }}Le végétal.<br>À explorer.{{ end }}</h2><a href="{{ (cond $en "en/categories/" "categories/") | relURL }}" class="text-link">{{ if $en }}All topics{{ else }}Toutes les rubriques{{ end }} <span aria-hidden="true">↗</span></a></div>
+<div class="mega-topics">{{ range sort (where .Site.Pages "Params.layout" "category") "Weight" }}<a href="{{ .RelPermalink }}" class="mega-topic"><img class="mega-thumbnail" src="{{ .Params.cover | relURL }}" alt="" width="70" height="80" loading="lazy"><span><strong>{{ .Title }}</strong><small>{{ .Description }}</small></span><span class="mega-arrow" aria-hidden="true">↗</span></a>{{ end }}</div>
+</div></div></details>
+<a href="{{ (cond $en "en/about/" "a-propos/") | relURL }}">{{ if $en }}About{{ else }}À propos{{ end }}</a>
