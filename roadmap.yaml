@@ -1,0 +1,1993 @@
+# Roadmap editoriale evergreen - Carnet Vegetal
+#
+# Articles SEO informationnels bilingues FR + EN, full auto via /create-article-auto.
+# Cadence : 3 publications par semaine (mardi, jeudi, samedi).
+# 176 entrees, planifiees du 2026-09-17 au 2027-10-30.
+#
+# Sources, fusionnees le 2026-09-16 :
+#   - roadmap de ma-bonne-sante.com : 97 mots-cles, compteurs remis a zero
+#     (statuts done et queued compris, a rediger sous un angle different de
+#      l'article deja publie la-bas, les deux blogs etant a nous et sur Inula)
+#   - roadmap editoriale Inula, lignes Site = Biofloral : 79 mots-cles,
+#     hors '5. Refuse'. Une partie est deja traitee sur biofloral.fr : le blog
+#     vise les memes requetes depuis un media externe, c'est voulu (GEO).
+#
+# Classement dans les 6 rubriques : fait sur le mot-cle, pas sur la categorie
+# d'origine. Les clusters de la roadmap Inula sont parfois faux (' degonfler
+# ventre naturellement ' y est range dans ' Enfants & mamans ').
+#
+# Ordre de publication : longue traine d'abord (volume croissant), le blog
+# demarre sans historique. Format documente dans
+# .claude/templates/roadmap-template.yaml
+#
+# REGLE DE DIVERSITE DES CATEGORIES (obligatoire)
+# -----------------------------------------------
+#   1. JAMAIS 2 articles consecutifs (par scheduled_date) de la meme categorie.
+#   2. Sur toute fenetre glissante de 5 articles consecutifs, au moins
+#      3 categories distinctes doivent etre representees.
+# Verifiee a la generation : 0 violation. A revalider a chaque ajout.
+
+articles:
+
+  # ============ 2026-09 ============
+  - kw: "pourquoi mon enfant pleure tout le temps"
+    category: "Émotions et sommeil"
+    volume: 20
+    kd: null
+    scheduled_date: "2026-09-17"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "dégonfler ventre naturellement"
+    category: "Plantes et saisons"
+    volume: 20
+    kd: null
+    scheduled_date: "2026-09-19"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "anxiété adolescent"
+    category: "Émotions et sommeil"
+    volume: 30
+    kd: null
+    scheduled_date: "2026-09-22"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "meilleur antioxydant naturel"
+    category: "Plantes et saisons"
+    volume: 40
+    kd: null
+    scheduled_date: "2026-09-24"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "fleurs de bach allaitement"
+    category: "Fleurs de Bach"
+    volume: 30
+    kd: null
+    scheduled_date: "2026-09-26"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "enfant qui pleure à l'école"
+    category: "Émotions et sommeil"
+    volume: 30
+    kd: null
+    scheduled_date: "2026-09-29"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+
+  # ============ 2026-10 ============
+  - kw: "quelle plante fait baisser la tension"
+    category: "Plantes et saisons"
+    volume: 70
+    kd: null
+    scheduled_date: "2026-10-01"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "confiance en soi adolescent"
+    category: "Émotions et sommeil"
+    volume: 40
+    kd: null
+    scheduled_date: "2026-10-03"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "cure détox foie"
+    category: "Plantes et saisons"
+    volume: 90
+    kd: 15
+    scheduled_date: "2026-10-06"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "fleur de bach jalousie"
+    category: "Fleurs de Bach"
+    volume: 50
+    kd: 9
+    scheduled_date: "2026-10-08"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "enfant qui fait des cauchemars"
+    category: "Émotions et sommeil"
+    volume: 40
+    kd: 10
+    scheduled_date: "2026-10-10"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "anti reflux gastrique naturel"
+    category: "Plantes et saisons"
+    volume: 170
+    kd: null
+    scheduled_date: "2026-10-13"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "estime de soi enfant"
+    category: "Émotions et sommeil"
+    volume: 40
+    kd: null
+    scheduled_date: "2026-10-15"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "comment soulager les jambes lourdes naturellement"
+    category: "Plantes et saisons"
+    volume: 210
+    kd: null
+    scheduled_date: "2026-10-17"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "le rescue fleur de bach est il efficace"
+    category: "Fleurs de Bach"
+    volume: 50
+    kd: null
+    scheduled_date: "2026-10-20"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "haut potentiel émotionnel enfant"
+    category: "Émotions et sommeil"
+    volume: 40
+    kd: null
+    scheduled_date: "2026-10-22"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "plantes digestives"
+    category: "Plantes et saisons"
+    volume: 210
+    kd: 21
+    scheduled_date: "2026-10-24"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "anti stress avion"
+    category: "Émotions et sommeil"
+    volume: 50
+    kd: 19
+    scheduled_date: "2026-10-27"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "bouffees de chaleur et thyroide"
+    category: "Plantes et saisons"
+    volume: 236
+    kd: null
+    scheduled_date: "2026-10-29"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "comment utiliser les huiles essentielles dans la maison"
+    category: "Huiles Essentielles et aromathérapie"
+    volume: 110
+    kd: null
+    scheduled_date: "2026-10-31"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+
+  # ============ 2026-11 ============
+  - kw: "charge mentale maman"
+    category: "Émotions et sommeil"
+    volume: 50
+    kd: 18
+    scheduled_date: "2026-11-03"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "combien de temps pour nettoyer le foie"
+    category: "Plantes et saisons"
+    volume: 260
+    kd: null
+    scheduled_date: "2026-11-05"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "stress adolescent"
+    category: "Émotions et sommeil"
+    volume: 50
+    kd: null
+    scheduled_date: "2026-11-07"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "comment ameliorer la digestion naturellement"
+    category: "Plantes et saisons"
+    volume: null
+    kd: null
+    scheduled_date: "2026-11-10"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "quelle fleur de bach choisir"
+    category: "Fleurs de Bach"
+    volume: 50
+    kd: null
+    scheduled_date: "2026-11-12"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "stress rentrée scolaire"
+    category: "Émotions et sommeil"
+    volume: 50
+    kd: null
+    scheduled_date: "2026-11-14"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "comment dégonfler le ventre rapidement"
+    category: "Plantes et saisons"
+    volume: null
+    kd: null
+    scheduled_date: "2026-11-17"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "trouble sommeil enfant"
+    category: "Émotions et sommeil"
+    volume: 70
+    kd: 28
+    scheduled_date: "2026-11-19"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "comment faire baisser la tension naturellement"
+    category: "Plantes et saisons"
+    volume: null
+    kd: null
+    scheduled_date: "2026-11-21"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "comment utiliser un diffuseur d huiles essentielles"
+    category: "Huiles Essentielles et aromathérapie"
+    volume: 110
+    kd: null
+    scheduled_date: "2026-11-24"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "enfant introverti"
+    category: "Émotions et sommeil"
+    volume: 90
+    kd: 20
+    scheduled_date: "2026-11-26"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "comment retrouver sa libido femme naturellement"
+    category: "Plantes et saisons"
+    volume: null
+    kd: null
+    scheduled_date: "2026-11-28"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+
+  # ============ 2026-12 ============
+  - kw: "enfant timide"
+    category: "Émotions et sommeil"
+    volume: 110
+    kd: 14
+    scheduled_date: "2026-12-01"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "comment soigner une cystite naturellement"
+    category: "Plantes et saisons"
+    volume: null
+    kd: null
+    scheduled_date: "2026-12-03"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "quelles fleurs de bach me faut il selon mes emotions"
+    category: "Fleurs de Bach"
+    volume: 50
+    kd: null
+    scheduled_date: "2026-12-05"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "peur de l’abandon"
+    category: "Émotions et sommeil"
+    volume: 110
+    kd: 31
+    scheduled_date: "2026-12-08"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "comment soulager les ballonnements rapidement"
+    category: "Plantes et saisons"
+    volume: null
+    kd: null
+    scheduled_date: "2026-12-10"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "confiance en soi enfant"
+    category: "Émotions et sommeil"
+    volume: 140
+    kd: 33
+    scheduled_date: "2026-12-12"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "comment soulager les regles douloureuses naturellement"
+    category: "Plantes et saisons"
+    volume: null
+    kd: null
+    scheduled_date: "2026-12-15"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "quelle huile essentielle pour maigrir"
+    category: "Huiles Essentielles et aromathérapie"
+    volume: 110
+    kd: null
+    scheduled_date: "2026-12-17"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "enfant peur du noir"
+    category: "Émotions et sommeil"
+    volume: 140
+    kd: 19
+    scheduled_date: "2026-12-19"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "comment soulager un mal de tete rapidement"
+    category: "Plantes et saisons"
+    volume: null
+    kd: null
+    scheduled_date: "2026-12-22"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "produit anti stress"
+    category: "Émotions et sommeil"
+    volume: 140
+    kd: 19
+    scheduled_date: "2026-12-24"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "comment soulager une digestion difficile naturellement"
+    category: "Plantes et saisons"
+    volume: null
+    kd: null
+    scheduled_date: "2026-12-26"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "fleurs de bach grossesse"
+    category: "Fleurs de Bach"
+    volume: 70
+    kd: 7
+    scheduled_date: "2026-12-29"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "insomnie enfant"
+    category: "Émotions et sommeil"
+    volume: 170
+    kd: 22
+    scheduled_date: "2026-12-31"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+
+  # ============ 2027-01 ============
+  - kw: "manque de vitamine d symptomes chez l adulte"
+    category: "Plantes et saisons"
+    volume: null
+    kd: null
+    scheduled_date: "2027-01-02"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "hypersensibilité adulte"
+    category: "Émotions et sommeil"
+    volume: 210
+    kd: 15
+    scheduled_date: "2027-01-05"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "plantes drainantes"
+    category: "Plantes et saisons"
+    volume: 260
+    kd: 18
+    scheduled_date: "2027-01-07"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "quelles huiles essentielles pour inhalation"
+    category: "Huiles Essentielles et aromathérapie"
+    volume: 110
+    kd: null
+    scheduled_date: "2027-01-09"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "ruminations anxieuses"
+    category: "Émotions et sommeil"
+    volume: 210
+    kd: 30
+    scheduled_date: "2027-01-12"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "quand faire une cure de probiotiques"
+    category: "Plantes et saisons"
+    volume: null
+    kd: null
+    scheduled_date: "2027-01-14"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "comment ameliorer la memoire et la concentration naturellement"
+    category: "Émotions et sommeil"
+    volume: null
+    kd: null
+    scheduled_date: "2027-01-16"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "fleurs de bach insomnie"
+    category: "Fleurs de Bach"
+    volume: 70
+    kd: 22
+    scheduled_date: "2027-01-19"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "comment calmer les palpitations du coeur naturellement"
+    category: "Émotions et sommeil"
+    volume: null
+    kd: null
+    scheduled_date: "2027-01-21"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "quelles huiles essentielles pour le rhume"
+    category: "Huiles Essentielles et aromathérapie"
+    volume: 140
+    kd: null
+    scheduled_date: "2027-01-23"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "comment lutter contre le stress naturellement"
+    category: "Émotions et sommeil"
+    volume: null
+    kd: null
+    scheduled_date: "2027-01-26"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "quel probiotique pour la flore intestinale"
+    category: "Plantes et saisons"
+    volume: null
+    kd: null
+    scheduled_date: "2027-01-28"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "comment soigner l insomnie naturellement"
+    category: "Émotions et sommeil"
+    volume: null
+    kd: null
+    scheduled_date: "2027-01-30"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+
+  # ============ 2027-02 ============
+  - kw: "quelle fleur de bach pour le sommeil"
+    category: "Fleurs de Bach"
+    volume: 70
+    kd: null
+    scheduled_date: "2027-02-02"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "comment utiliser l huile essentielle de lavande"
+    category: "Huiles Essentielles et aromathérapie"
+    volume: 155
+    kd: null
+    scheduled_date: "2027-02-04"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "hyperactivité adulte"
+    category: "Émotions et sommeil"
+    volume: null
+    kd: 28
+    scheduled_date: "2027-02-06"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "quel remede naturel pour la digestion"
+    category: "Plantes et saisons"
+    volume: null
+    kd: null
+    scheduled_date: "2027-02-09"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "fleurs de bach énergie"
+    category: "Fleurs de Bach"
+    volume: 90
+    kd: 5
+    scheduled_date: "2027-02-11"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "comment utiliser les huiles essentielles sur la peau"
+    category: "Huiles Essentielles et aromathérapie"
+    volume: 170
+    kd: null
+    scheduled_date: "2027-02-13"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "quel remede naturel pour les insomnies"
+    category: "Émotions et sommeil"
+    volume: null
+    kd: null
+    scheduled_date: "2027-02-16"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "quelle plante pour eviter les reveils nocturnes"
+    category: "Plantes et saisons"
+    volume: null
+    kd: null
+    scheduled_date: "2027-02-18"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "fleur de bach tdah enfant"
+    category: "Fleurs de Bach"
+    volume: 110
+    kd: 7
+    scheduled_date: "2027-02-20"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "combien de temps les huiles essentielles restent dans le corps"
+    category: "Huiles Essentielles et aromathérapie"
+    volume: 210
+    kd: null
+    scheduled_date: "2027-02-23"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "quelle plante pour la memoire"
+    category: "Émotions et sommeil"
+    volume: null
+    kd: null
+    scheduled_date: "2027-02-25"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "quels sont les bienfaits du curcuma sur l organisme"
+    category: "Plantes et saisons"
+    volume: null
+    kd: null
+    scheduled_date: "2027-02-27"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+
+  # ============ 2027-03 ============
+  - kw: "fleurs de bach colère frustration"
+    category: "Fleurs de Bach"
+    volume: 110
+    kd: 16
+    scheduled_date: "2027-03-02"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "comment soigner rapidement une angine naturellement"
+    category: "Huiles Essentielles et aromathérapie"
+    volume: 210
+    kd: null
+    scheduled_date: "2027-03-04"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "épuisement parental"
+    category: "Émotions et sommeil"
+    volume: 260
+    kd: 33
+    scheduled_date: "2027-03-06"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "quels sont les bienfaits du gingembre"
+    category: "Plantes et saisons"
+    volume: null
+    kd: null
+    scheduled_date: "2027-03-09"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "fleur de bach enfant agité"
+    category: "Fleurs de Bach"
+    volume: 140
+    kd: 9
+    scheduled_date: "2027-03-11"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "que faire en cas de rhume solutions naturelles"
+    category: "Huiles Essentielles et aromathérapie"
+    volume: 210
+    kd: null
+    scheduled_date: "2027-03-13"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "quelle est la meilleure tisane pour dormir"
+    category: "Émotions et sommeil"
+    volume: 300
+    kd: null
+    scheduled_date: "2027-03-16"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "quels sont les bienfaits du magnesium"
+    category: "Plantes et saisons"
+    volume: null
+    kd: null
+    scheduled_date: "2027-03-18"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "fleurs de bach joie de vivre"
+    category: "Fleurs de Bach"
+    volume: 170
+    kd: 10
+    scheduled_date: "2027-03-20"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "quelle huile essentielle pour deboucher le nez"
+    category: "Huiles Essentielles et aromathérapie"
+    volume: 210
+    kd: null
+    scheduled_date: "2027-03-23"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "crise enfant 3 ans"
+    category: "Émotions et sommeil"
+    volume: 390
+    kd: 19
+    scheduled_date: "2027-03-25"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "quels sont les symptomes d une carence en magnesium"
+    category: "Plantes et saisons"
+    volume: null
+    kd: null
+    scheduled_date: "2027-03-27"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "fleur de bach concentration"
+    category: "Fleurs de Bach"
+    volume: 210
+    kd: 11
+    scheduled_date: "2027-03-30"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+
+  # ============ 2027-04 ============
+  - kw: "quelle huile essentielle pour les rides profondes"
+    category: "Huiles Essentielles et aromathérapie"
+    volume: 210
+    kd: null
+    scheduled_date: "2027-04-01"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "quelle est la plante la plus efficace pour dormir"
+    category: "Émotions et sommeil"
+    volume: 390
+    kd: null
+    scheduled_date: "2027-04-03"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "comment faire baisser le cholesterol naturellement"
+    category: "Plantes et saisons"
+    volume: 277
+    kd: null
+    scheduled_date: "2027-04-06"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "fleur de bach pastille"
+    category: "Fleurs de Bach"
+    volume: 210
+    kd: 10
+    scheduled_date: "2027-04-08"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "comment utiliser l huile essentielle d eucalyptus radie"
+    category: "Huiles Essentielles et aromathérapie"
+    volume: 260
+    kd: null
+    scheduled_date: "2027-04-10"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "stress examen"
+    category: "Émotions et sommeil"
+    volume: 400
+    kd: 20
+    scheduled_date: "2027-04-13"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "bouffees de chaleur traitement naturel"
+    category: "Plantes et saisons"
+    volume: 295
+    kd: null
+    scheduled_date: "2027-04-15"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "fleur de bach pour la confiance en soi"
+    category: "Fleurs de Bach"
+    volume: null
+    kd: null
+    scheduled_date: "2027-04-17"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "comment utiliser l huile essentielle de ravintsara"
+    category: "Huiles Essentielles et aromathérapie"
+    volume: 260
+    kd: null
+    scheduled_date: "2027-04-20"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "reguler son systeme nerveux​"
+    category: "Émotions et sommeil"
+    volume: 590
+    kd: 18
+    scheduled_date: "2027-04-22"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "quel magnesium choisir en pharmacie"
+    category: "Plantes et saisons"
+    volume: 300
+    kd: null
+    scheduled_date: "2027-04-24"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "fleur de bach pour les peurs et angoisses"
+    category: "Fleurs de Bach"
+    volume: null
+    kd: null
+    scheduled_date: "2027-04-27"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "huile essentielle de menthe poivree utilisation"
+    category: "Huiles Essentielles et aromathérapie"
+    volume: null
+    kd: null
+    scheduled_date: "2027-04-29"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+
+  # ============ 2027-05 ============
+  - kw: "terreur nocturne enfant"
+    category: "Émotions et sommeil"
+    volume: 720
+    kd: 28
+    scheduled_date: "2027-05-01"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "plantes pour le foie"
+    category: "Plantes et saisons"
+    volume: 320
+    kd: 17
+    scheduled_date: "2027-05-04"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "soulager articulations naturellement"
+    category: "Bourgeons et gemmothérapie"
+    volume: 40
+    kd: 15
+    scheduled_date: "2027-05-06"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "fleur de bach enfant sommeil"
+    category: "Fleurs de Bach"
+    volume: 320
+    kd: 10
+    scheduled_date: "2027-05-08"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "huile essentielle pour la migraine"
+    category: "Huiles Essentielles et aromathérapie"
+    volume: null
+    kd: null
+    scheduled_date: "2027-05-11"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "crise d’angoisse"
+    category: "Émotions et sommeil"
+    volume: 880
+    kd: 55
+    scheduled_date: "2027-05-13"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "vinaigre des 4 voleurs bienfaits"
+    category: "Plantes et saisons"
+    volume: 390
+    kd: 11
+    scheduled_date: "2027-05-15"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "comment booster son systeme immunitaire"
+    category: "Bourgeons et gemmothérapie"
+    volume: null
+    kd: null
+    scheduled_date: "2027-05-18"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "fleur de bach confiance en soi"
+    category: "Fleurs de Bach"
+    volume: 390
+    kd: 11
+    scheduled_date: "2027-05-20"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "quelle huile essentielle pour degager les bronches"
+    category: "Huiles Essentielles et aromathérapie"
+    volume: 260
+    kd: null
+    scheduled_date: "2027-05-22"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "comment lâcher prise"
+    category: "Émotions et sommeil"
+    volume: 1000
+    kd: 33
+    scheduled_date: "2027-05-25"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "nettoyer son foie naturellement"
+    category: "Plantes et saisons"
+    volume: 480
+    kd: 28
+    scheduled_date: "2027-05-27"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "comment faire passer la douleur des regles sans medicament"
+    category: "Bourgeons et gemmothérapie"
+    volume: null
+    kd: null
+    scheduled_date: "2027-05-29"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+
+  # ============ 2027-06 ============
+  - kw: "fleur de bach sommeil enfant"
+    category: "Fleurs de Bach"
+    volume: 390
+    kd: 10
+    scheduled_date: "2027-06-01"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "quelle huile essentielle pour la concentration"
+    category: "Huiles Essentielles et aromathérapie"
+    volume: null
+    kd: null
+    scheduled_date: "2027-06-03"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "enfant intérieur"
+    category: "Émotions et sommeil"
+    volume: 1000
+    kd: 24
+    scheduled_date: "2027-06-05"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "comment consommer le curcuma pour qu il soit efficace"
+    category: "Plantes et saisons"
+    volume: 600
+    kd: null
+    scheduled_date: "2027-06-08"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "comment faire passer une migraine sans medicament"
+    category: "Bourgeons et gemmothérapie"
+    volume: null
+    kd: null
+    scheduled_date: "2027-06-10"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "fleurs de bach pour dormir"
+    category: "Fleurs de Bach"
+    volume: 390
+    kd: 17
+    scheduled_date: "2027-06-12"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "quelle huile essentielle pour le nez qui coule"
+    category: "Huiles Essentielles et aromathérapie"
+    volume: 260
+    kd: null
+    scheduled_date: "2027-06-15"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "crise adolescence"
+    category: "Émotions et sommeil"
+    volume: 1300
+    kd: 37
+    scheduled_date: "2027-06-17"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "traitement allergie pollen naturel"
+    category: "Plantes et saisons"
+    volume: 677
+    kd: null
+    scheduled_date: "2027-06-19"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "comment hydrater une peau tres seche naturellement"
+    category: "Beauté et soins naturels"
+    volume: 210
+    kd: null
+    scheduled_date: "2027-06-22"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "comment renforcer son systeme immunitaire naturellement"
+    category: "Bourgeons et gemmothérapie"
+    volume: null
+    kd: null
+    scheduled_date: "2027-06-24"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "fleurs de bach pour les angoisses"
+    category: "Fleurs de Bach"
+    volume: 410
+    kd: 10
+    scheduled_date: "2027-06-26"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "quelle huile essentielle pour les infections pulmonaires"
+    category: "Huiles Essentielles et aromathérapie"
+    volume: 260
+    kd: null
+    scheduled_date: "2027-06-29"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+
+  # ============ 2027-07 ============
+  - kw: "enfant hypersensible"
+    category: "Émotions et sommeil"
+    volume: 1900
+    kd: 18
+    scheduled_date: "2027-07-01"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "comment nettoyer son foie rapidement"
+    category: "Plantes et saisons"
+    volume: 720
+    kd: null
+    scheduled_date: "2027-07-03"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "comment utiliser l huile de tea tree sur le visage"
+    category: "Beauté et soins naturels"
+    volume: 236
+    kd: null
+    scheduled_date: "2027-07-06"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "comment soulager l arthrose naturellement"
+    category: "Bourgeons et gemmothérapie"
+    volume: null
+    kd: null
+    scheduled_date: "2027-07-08"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "fleur de bach sans alcool​"
+    category: "Fleurs de Bach"
+    volume: 480
+    kd: 9
+    scheduled_date: "2027-07-10"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "huile essentielle pour le stress et l anxiete"
+    category: "Huiles Essentielles et aromathérapie"
+    volume: 400
+    kd: null
+    scheduled_date: "2027-07-13"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "gestion des émotions"
+    category: "Émotions et sommeil"
+    volume: 1900
+    kd: 27
+    scheduled_date: "2027-07-15"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "curcuma bio"
+    category: "Plantes et saisons"
+    volume: 900
+    kd: 19
+    scheduled_date: "2027-07-17"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "comment se debarrasser de l acne naturellement"
+    category: "Beauté et soins naturels"
+    volume: null
+    kd: null
+    scheduled_date: "2027-07-20"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "quel jus pour renforcer le systeme immunitaire"
+    category: "Bourgeons et gemmothérapie"
+    volume: null
+    kd: null
+    scheduled_date: "2027-07-22"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "fleurs de Bach angoisse"
+    category: "Fleurs de Bach"
+    volume: 480
+    kd: 17
+    scheduled_date: "2027-07-24"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "huile essentielle tea tree partie intime"
+    category: "Huiles Essentielles et aromathérapie"
+    volume: 400
+    kd: null
+    scheduled_date: "2027-07-27"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "brown out"
+    category: "Émotions et sommeil"
+    volume: 4400
+    kd: 24
+    scheduled_date: "2027-07-29"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "produits naturels"
+    category: "Plantes et saisons"
+    volume: 1000
+    kd: 71
+    scheduled_date: "2027-07-31"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+
+  # ============ 2027-08 ============
+  - kw: "comment se debarrasser de la cellulite naturellement"
+    category: "Beauté et soins naturels"
+    volume: null
+    kd: null
+    scheduled_date: "2027-08-03"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "quelles plantes pour renforcer le systeme immunitaire"
+    category: "Bourgeons et gemmothérapie"
+    volume: null
+    kd: null
+    scheduled_date: "2027-08-05"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "fleurs de bach anxiété"
+    category: "Fleurs de Bach"
+    volume: 480
+    kd: 16
+    scheduled_date: "2027-08-07"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "combien de gouttes d huile essentielle dans un diffuseur"
+    category: "Huiles Essentielles et aromathérapie"
+    volume: 436
+    kd: null
+    scheduled_date: "2027-08-10"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "gestion du stress"
+    category: "Émotions et sommeil"
+    volume: 4400
+    kd: 54
+    scheduled_date: "2027-08-12"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "comment consommer le gingembre"
+    category: "Plantes et saisons"
+    volume: 1182
+    kd: null
+    scheduled_date: "2027-08-14"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "comment soigner la peau seche naturellement"
+    category: "Beauté et soins naturels"
+    volume: null
+    kd: null
+    scheduled_date: "2027-08-17"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "quels sont les 5 pires aliments pour l arthrose"
+    category: "Bourgeons et gemmothérapie"
+    volume: null
+    kd: null
+    scheduled_date: "2027-08-19"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "fleurs de bach minceur"
+    category: "Fleurs de Bach"
+    volume: 720
+    kd: 20
+    scheduled_date: "2027-08-21"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "comment couper un rhume rapidement"
+    category: "Huiles Essentielles et aromathérapie"
+    volume: 500
+    kd: null
+    scheduled_date: "2027-08-24"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "pensées positives"
+    category: "Émotions et sommeil"
+    volume: 4400
+    kd: 32
+    scheduled_date: "2027-08-26"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "bienfait curcuma"
+    category: "Plantes et saisons"
+    volume: 1300
+    kd: 40
+    scheduled_date: "2027-08-28"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "comment stopper la chute des cheveux chez la femme"
+    category: "Beauté et soins naturels"
+    volume: null
+    kd: null
+    scheduled_date: "2027-08-31"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+
+  # ============ 2027-09 ============
+  - kw: "gemmotherapie agit en combien de temps"
+    category: "Bourgeons et gemmothérapie"
+    volume: 390
+    kd: null
+    scheduled_date: "2027-09-02"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "fleur de bach enfant"
+    category: "Fleurs de Bach"
+    volume: 1300
+    kd: 18
+    scheduled_date: "2027-09-04"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "comment se debarrasser d un rhume en 2 jours"
+    category: "Huiles Essentielles et aromathérapie"
+    volume: 590
+    kd: null
+    scheduled_date: "2027-09-07"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "anxiété sociale"
+    category: "Émotions et sommeil"
+    volume: 5400
+    kd: 50
+    scheduled_date: "2027-09-09"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "quels sont les probiotiques les plus efficaces"
+    category: "Plantes et saisons"
+    volume: 1300
+    kd: null
+    scheduled_date: "2027-09-11"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "huile de nigelle dangereux"
+    category: "Beauté et soins naturels"
+    volume: null
+    kd: null
+    scheduled_date: "2027-09-14"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "bourgeon de figuier utilisation et bienfaits"
+    category: "Bourgeons et gemmothérapie"
+    volume: 800
+    kd: null
+    scheduled_date: "2027-09-16"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "fleurs de Bach stress"
+    category: "Fleurs de Bach"
+    volume: 1300
+    kd: 17
+    scheduled_date: "2027-09-18"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "huile essentielle tea tree mycose"
+    category: "Huiles Essentielles et aromathérapie"
+    volume: 590
+    kd: null
+    scheduled_date: "2027-09-21"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "estime de soi"
+    category: "Émotions et sommeil"
+    volume: 5400
+    kd: 36
+    scheduled_date: "2027-09-23"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "comment vider son ventre des gaz"
+    category: "Plantes et saisons"
+    volume: 2300
+    kd: null
+    scheduled_date: "2027-09-25"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "quel produit naturel pour la chute des cheveux"
+    category: "Beauté et soins naturels"
+    volume: null
+    kd: null
+    scheduled_date: "2027-09-28"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "gemmotherapie danger et contre indications"
+    category: "Bourgeons et gemmothérapie"
+    volume: 880
+    kd: null
+    scheduled_date: "2027-09-30"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+
+  # ============ 2027-10 ============
+  - kw: "fleur de bach sommeil"
+    category: "Fleurs de Bach"
+    volume: 1900
+    kd: 19
+    scheduled_date: "2027-10-02"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "huile essentielle tea tree bienfaits"
+    category: "Huiles Essentielles et aromathérapie"
+    volume: 1727
+    kd: null
+    scheduled_date: "2027-10-05"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "stress chronique"
+    category: "Émotions et sommeil"
+    volume: 5400
+    kd: 51
+    scheduled_date: "2027-10-07"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "au bout de combien de temps le magnesium fait effet"
+    category: "Plantes et saisons"
+    volume: 3200
+    kd: null
+    scheduled_date: "2027-10-09"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "quelle vitamine pour stopper la chute des cheveux"
+    category: "Beauté et soins naturels"
+    volume: null
+    kd: null
+    scheduled_date: "2027-10-12"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "gemmotherapie cassis bienfaits"
+    category: "Bourgeons et gemmothérapie"
+    volume: 1462
+    kd: null
+    scheduled_date: "2027-10-14"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "fleurs de bach ménopause"
+    category: "Fleurs de Bach"
+    volume: 4500
+    kd: 21
+    scheduled_date: "2027-10-16"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "huile essentielle tea tree danger"
+    category: "Huiles Essentielles et aromathérapie"
+    volume: 2700
+    kd: null
+    scheduled_date: "2027-10-19"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "confiance en soi"
+    category: "Émotions et sommeil"
+    volume: 8100
+    kd: 44
+    scheduled_date: "2027-10-21"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "coupe faim naturel"
+    category: "Plantes et saisons"
+    volume: 6700
+    kd: 23
+    scheduled_date: "2027-10-23"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "quels aliments contre la cellulite"
+    category: "Beauté et soins naturels"
+    volume: null
+    kd: null
+    scheduled_date: "2027-10-26"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "anti inflammatoire naturel"
+    category: "Bourgeons et gemmothérapie"
+    volume: 9900
+    kd: 34
+    scheduled_date: "2027-10-28"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
+
+  - kw: "fleur de bach menopause"
+    category: "Fleurs de Bach"
+    volume: 6600
+    kd: 19
+    scheduled_date: "2027-10-30"
+    status: todo
+    published_date: null
+    published_url_fr: null
+    published_url_en: null
+    error: null
