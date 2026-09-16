@@ -1,6 +1,12 @@
 # Sources graphiques de Carnet Végétal
 
-Refonte du 2026-09-15, demandée par Damien. Référence de direction artistique : https://www.hippocratus.com/. Palette et typographies observées dans les styles calculés du site. Photos sélectionnées sur Pexels, sans réutilisation des photos, logos ni témoignages Hippocratus.
+Direction artistique refondue le 2026-09-16. La version du 2026-09-15 s'inspirait de https://www.hippocratus.com/ d'un peu trop près : palette reprise au code hexadécimal, et webfonts téléchargées depuis leur CDN Shopify. Les deux points sont corrigés, le site ne partage plus aucune valeur ni aucun fichier avec cette référence. Photos Pexels, sans réutilisation des photos, logos ni témoignages Hippocratus.
+
+## Identité
+
+- **Logo** : `static/favicon.svg`, dessiné en interne le 2026-09-16. Un carnet au dos rose, une pousse et un bourgeon, qui reprend le nom du média. Remplace la feuille dans un cercle de la version précédente. Décliné en `favicon.ico` (16/32/48), `apple-touch-icon.png` (180), `icon-192.png` et `icon-512.png`, générés depuis le SVG avec ImageMagick.
+- **Palette** : vert `#1f5d45` (couleur de marque), crème `#fbf5f1`, sauge `#e4ece5`, et un accent rose/mauve, `#c26f95` en aplat, `#a14a77` en texte sur fond clair, `#f0bed3` sur fond vert, `#6d4a75` pour les liens de lecture. Les déclinaisons du rose existent pour le contraste : le rose plein tombe à 2,2 sur le vert du footer, la version claire remonte à 4,8.
+- **Rayon des angles** : 18 px (30 px avant).
 
 ## Photographies
 
@@ -16,12 +22,12 @@ Licence des photographies : https://www.pexels.com/license/. Fichiers JPEG optim
 
 ## Typographies
 
-Webfonts récupérées le 2026-09-15 depuis les assets publics de la référence, à la demande de Damien :
+Deux familles libres, téléchargées depuis Google Fonts le 2026-09-16 et servies depuis notre domaine. Fichiers variables, un par sous-ensemble (latin, latin-ext).
 
-- `static/fonts/Inter-Regular.woff2` : https://www.hippocratus.com/cdn/shop/files/Inter-Regular.woff2?v=1696952552
-- `static/fonts/Inter-Bold.woff2` : https://www.hippocratus.com/cdn/shop/files/Inter-Bold.woff2?v=1697445243
-- `static/fonts/Sherika-Medium.woff2` : https://www.hippocratus.com/cdn/shop/files/Sherika-Medium.woff2?v=1696952763
-- `static/fonts/Sherika-Bold.woff2` : https://www.hippocratus.com/cdn/shop/files/Sherika-Bold.woff2?v=1704874439
+- Titres et marque : **Outfit** (SIL Open Font License 1.1), `static/fonts/Outfit-latin.woff2` et `Outfit-latin-ext.woff2`.
+- Textes courants : **Inter** (SIL Open Font License 1.1), `static/fonts/Inter-latin.woff2` et `Inter-latin-ext.woff2`.
+
+**Ce qui a été retiré le 2026-09-16** : `Sherika-Medium.woff2` et `Sherika-Bold.woff2`, récupérées le 2026-09-15 sur le CDN Shopify d'Hippocratus. Sherika est une police commerciale : la servir depuis notre domaine sans licence était le vrai risque juridique du site, davantage qu'une ressemblance de palette. Les deux fichiers Inter venaient du même CDN et ont été repris à la source, Inter étant libre mais sans raison de dépendre d'eux.
 
 ## Sauvegarde
 
