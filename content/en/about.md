@@ -12,7 +12,7 @@ Carnet Végétal explores aromatherapy, gemmotherapy, Bach flower essences and e
 
 ## Who publishes this journal?
 
-This publication is created by datashake as part of its work with Inula, the group behind Pranarôm, HerbalGem and Biofloral. This relationship is stated to help readers understand the editorial context.
+Carnet Végétal is an independent editorial publication. The editorial team picks its topics based on reader interest, with no commercial consideration and no sponsored content.
 
 ## A clear approach
 

@@ -2,7 +2,7 @@
 
 > {{ .Site.Params.description }}
 
-{{ if eq .Lang "en" }}Published by datashake as part of its work with Inula.{{ else }}Projet éditorial datashake dans le cadre de son accompagnement de Inula.{{ end }}
+{{ if eq .Lang "en" }}An independent editorial publication on plants and natural wellbeing.{{ else }}Un média indépendant sur les plantes et le bien-être naturel.{{ end }}
 {{ if not (partial "indexable.html" .) }}{{ if eq .Lang "en" }}Local preview, not approved for publication.{{ else }}Prévisualisation locale, publication non validée.{{ end }}{{ end }}
 
 ## {{ if eq .Lang "en" }}Editorial pages{{ else }}Pages éditoriales{{ end }}

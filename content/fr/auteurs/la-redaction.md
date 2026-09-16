@@ -8,7 +8,7 @@
   "authorId": "redaction-carnet-vegetal"
 }
 
-Carnet Végétal est édité par datashake dans le cadre de son accompagnement d’Inula. Cette signature collective porte les guides et les dossiers du média. Les sources sont identifiées dans chaque article.
+Cette signature collective porte les guides et les dossiers du média. Les sources sont identifiées dans chaque article.
 
 ## Les sujets de la rédaction
 

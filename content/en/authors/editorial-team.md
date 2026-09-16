@@ -8,7 +8,7 @@
   "authorId": "redaction-carnet-vegetal"
 }
 
-Carnet Végétal is published by datashake as part of its work with Inula. This collective byline covers the publication’s guides and features. Sources are identified within each article.
+This collective byline covers the publication’s guides and features. Sources are identified within each article.
 
 ## Areas of interest
 

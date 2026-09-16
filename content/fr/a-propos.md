@@ -12,7 +12,7 @@ Carnet Végétal explore l’aromathérapie, la gemmothérapie, les fleurs de Ba
 
 ## Qui édite ce média ?
 
-Ce média est créé par datashake dans le cadre de son accompagnement d’Inula, le groupe qui réunit Pranarôm, HerbalGem et Biofloral. Ce lien est précisé pour éclairer le contexte éditorial des contenus.
+Carnet Végétal est un média éditorial indépendant. La rédaction choisit ses sujets selon l’intérêt des lecteurs, sans contrepartie commerciale et sans contenu sponsorisé.
 
 ## Une information lisible
 
