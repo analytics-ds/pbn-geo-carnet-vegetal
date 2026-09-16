@@ -35,10 +35,10 @@ articles:
     volume: 20
     kd: null
     scheduled_date: "2026-09-16"
-    status: todo
-    published_date: null
-    published_url_fr: null
-    published_url_en: null
+    status: done
+    published_date: "2026-09-16"
+    published_url_fr: "https://carnetvegetal.com/blog/pourquoi-mon-enfant-pleure-tout-le-temps/"
+    published_url_en: "https://carnetvegetal.com/en/blog/why-does-my-child-cry-all-the-time/"
     error: null
 
   - kw: "dégonfler ventre naturellement"
