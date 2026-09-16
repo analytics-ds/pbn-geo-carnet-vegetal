@@ -14,7 +14,7 @@ Elle est destinee a etre declenchee par une routine planifiee (ex: 2x/semaine a 
 - `roadmap.yaml` existe et contient au moins une entree `status: todo`.
 - `hugo.toml` configure avec la langue principale + la langue EN.
 - `data/authors.yaml` present (systeme d'auteurs partage).
-- `content/blog/` existe (peut etre vide pour un premier article).
+- `content/fr/blog/` existe (peut etre vide pour un premier article).
 - Remote git `origin` configure, acces push.
 - Outil `WebSearch` disponible (recommande, execute cote serveur donc non soumis aux restrictions reseau du sandbox). S'il est absent, la skill degrade en mode "kw seul" sans echouer.
 
@@ -24,7 +24,7 @@ Aucune question a l'utilisateur. Toutes les decisions sont prises par l'agent a 
 - Le mot-cle de la roadmap
 - L'analyse du sujet via `WebSearch` (ou le kw seul si WebSearch indispo)
 - Le contexte du site (CLAUDE.md du blog, authors.yaml, hugo.toml)
-- Les articles deja publies (scan `content/blog/`)
+- Les articles deja publies (scan `content/fr/blog/`)
 
 Si une etape bloque (image introuvable, build Hugo echoue, push rejete apres rebase), l'agent **n'insiste pas** : il marque l'entree `status: failed` dans la roadmap avec le message d'erreur, commit le roadmap, et sort proprement en exit code non-zero. **Exception : l'indisponibilite de WebSearch n'est PAS un motif d'echec** (voir Etape 1), on continue en mode degrade.
 
@@ -289,7 +289,7 @@ bash .claude/scripts/fetch-image.sh "<kw traduit en anglais>" "<slug-fr>" "stati
 
 ## Etape 6 — Maillage interne auto
 
-1. Lister tous les `.md` dans `content/blog/` (articles FR uniquement pour cette passe).
+1. Lister tous les `.md` dans `content/fr/blog/` (articles FR uniquement pour cette passe).
 2. Lire le frontmatter de chacun : `title`, `kw` (via slug), `categories`, `tags`.
 3. Scorer chaque article par proximite avec le nouveau (categorie identique = +3, tags partages = +1 par tag, mots communs entre kw = +2).
 4. Garder les 3 a 5 meilleurs scores.
@@ -302,7 +302,7 @@ Si le blog a moins de 3 articles FR publies : faire au mieux avec ce qui existe 
 
 ## Etape 7 — Redaction FR complete
 
-Produire le fichier `content/blog/[slug-fr].md`.
+Produire le fichier `content/fr/blog/[slug-fr].md`.
 
 ### Frontmatter
 ```yaml
