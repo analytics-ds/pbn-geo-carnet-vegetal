@@ -1,5 +1,5 @@
-baseURL = "https://analytics-ds.github.io/pbn-geo-guide-du-naturel/"
-title = "Le Guide du Naturel"
+baseURL = "https://carnetvegetal.com/"
+title = "Carnet Végétal"
 defaultContentLanguage = "fr"
 defaultContentLanguageInSubdir = false
 enableRobotsTXT = true
@@ -8,8 +8,8 @@ disableKinds = ["taxonomy", "term"]
   category = "themes"
   tag = "tags"
 [params]
-  productionHost = ""
-  launchApproved = false
+  productionHost = "carnetvegetal.com"
+  launchApproved = true
   default_og_image = "images/foret.jpg"
   logo = "favicon.svg"
 [languages.fr]

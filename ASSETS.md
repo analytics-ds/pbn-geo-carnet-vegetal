@@ -1,4 +1,4 @@
-# Sources graphiques du Guide du Naturel
+# Sources graphiques de Carnet Végétal
 
 Refonte du 2026-09-15, demandée par Damien. Référence de direction artistique : https://www.hippocratus.com/. Palette et typographies observées dans les styles calculés du site. Photos sélectionnées sur Pexels, sans réutilisation des photos, logos ni témoignages Hippocratus.
 

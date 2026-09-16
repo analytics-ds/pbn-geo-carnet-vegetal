@@ -40,7 +40,7 @@ jobs:
         run: hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
 
       - name: Verify rendered site
-        run: python3 verification/check-seo.py public preview
+        run: python3 verification/check-seo.py public production
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

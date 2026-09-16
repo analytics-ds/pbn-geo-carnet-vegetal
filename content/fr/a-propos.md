@@ -1,6 +1,6 @@
 {
   "title": "À propos du média",
-  "description": "Le projet éditorial du Guide du Naturel.",
+  "description": "Le projet éditorial de Carnet Végétal.",
   "translationKey": "about",
   "date": "2026-09-15",
   "lastmod": "2026-09-15"
@@ -8,7 +8,7 @@
 
 ## Les plantes et le bien-être naturel
 
-Le Guide du Naturel explore l’aromathérapie, la gemmothérapie, les fleurs de Bach et les soins du quotidien à travers des guides et des dossiers accessibles.
+Carnet Végétal explore l’aromathérapie, la gemmothérapie, les fleurs de Bach et les soins du quotidien à travers des guides et des dossiers accessibles.
 
 ## Qui édite ce média ?
 

@@ -1,6 +1,6 @@
 {
   "title": "About the publication",
-  "description": "The editorial project behind Le Guide du Naturel.",
+  "description": "The editorial project behind Carnet Végétal.",
   "translationKey": "about",
   "date": "2026-09-15",
   "lastmod": "2026-09-15"
@@ -8,7 +8,7 @@
 
 ## Plants and natural wellbeing
 
-Le Guide du Naturel explores aromatherapy, gemmotherapy, Bach flower essences and everyday care through accessible guides and features.
+Carnet Végétal explores aromatherapy, gemmotherapy, Bach flower essences and everyday care through accessible guides and features.
 
 ## Who publishes this journal?
 

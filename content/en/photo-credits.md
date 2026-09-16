@@ -1,6 +1,6 @@
 {
   "title": "Visual credits",
-  "description": "Photography and visual credits for Le Guide du Naturel.",
+  "description": "Photography and visual credits for Carnet Végétal.",
   "translationKey": "credits",
   "date": "2026-09-15",
   "lastmod": "2026-09-15",

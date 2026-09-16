@@ -1,4 +1,4 @@
-# Le Guide du Naturel
+# Carnet Végétal
 
 Média bilingue sur les plantes et le bien-être naturel. Nom provisoire.
 
@@ -14,7 +14,7 @@ Indexation bloquée tant que le domaine de production et le lancement ne sont pa
 
 ## GitHub Pages
 
-Aperçu public : https://analytics-ds.github.io/pbn-geo-guide-du-naturel/
+Aperçu public : https://analytics-ds.github.io/pbn-geo-carnet-vegetal/
 
 Déploiement automatique de la branche `main` via GitHub Actions. Domaine et nom définitifs en attente.
 

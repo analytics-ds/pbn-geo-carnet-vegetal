@@ -1,5 +1,5 @@
 {
-  "title": "Le Guide du Naturel",
+  "title": "Carnet Végétal",
   "description": "A journal to explore plants and natural wellbeing.",
   "translationKey": "home",
   "date": "2026-09-15",
