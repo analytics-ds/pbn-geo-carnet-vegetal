@@ -1,10 +1,9 @@
+# roadmap.yaml et .claude/ NE SONT PAS ignores : la routine cloud clone ce repo
+# et y lit sa roadmap et sa skill. Les exclure la fait tourner a blanc sans erreur.
 public/
 resources/
 .hugo_build.lock
 .DS_Store
-.claude/
 AGENTS.md
 CLAUDE.md
-roadmap.yaml
-publications.json
 verification/build*/
