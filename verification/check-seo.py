@@ -37,10 +37,12 @@ def local_path(path):
     decoded=unquote(path)
     if basepath!='/' and decoded.startswith(basepath):decoded=decoded[len(basepath):]
     return root/decoded.lstrip('/')
+LEGAL={'mentions-legales','politique-de-confidentialite','cgu','legal-notice','privacy-policy','terms-of-service'}
+def is_legal(f):return any(part in LEGAL for part in f.relative_to(root).parts)
 for f,page in pages.items():
     assert page.h1==1,(f,'H1')
     assert len(page.meta.get('description',[]))==1 and page.meta['description'][0],(f,'description')
-    expected='index, follow' if mode=='production' and f.name!='404.html' else 'noindex, nofollow'
+    expected='index, follow' if mode=='production' and f.name!='404.html' and not is_legal(f) else 'noindex, nofollow'
     assert page.meta.get('robots')==[expected],(f,'robots',page.meta.get('robots'))
     canon=[x['href'] for x in page.links if x.get('rel')=='canonical'];assert len(canon)==1
     host=urlsplit(canon[0]).hostname
@@ -80,7 +82,11 @@ if mode=='articles':
         page=pages[root/prefix/'blog/gabarit/index.html'];types={x['@type'] for x in page.ld}
         assert {'BlogPosting','FAQPage','BreadcrumbList'}<=types
 else:
-    assert not (root/'mentions-legales/index.html').exists()
+    if mode=='production':
+        for slug in ['mentions-legales','politique-de-confidentialite','cgu','en/legal-notice','en/privacy-policy','en/terms-of-service']:
+            assert (root/slug/'index.html').exists(),(slug,'page legale manquante')
+    else:
+        assert not (root/'mentions-legales/index.html').exists()
     assert not (root/'verification').exists()
 assert ('Allow: /' if mode=='production' else 'Disallow: /') in (root/'robots.txt').read_text()
 print(f'{mode}: {len(pages)} pages, liens, métadonnées, schémas, hreflang, XML/RSS et robots : OK')
