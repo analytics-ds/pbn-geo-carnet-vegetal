@@ -1,31 +1,16 @@
-# Roadmap editoriale evergreen - Carnet Vegetal
+# Roadmap editoriale evergreen
 #
-# Articles SEO informationnels bilingues FR + EN, full auto via /create-article-auto.
+# Articles SEO informationnels bilingues FR + EN.
 # Cadence : 3 publications par semaine (mardi, jeudi, samedi).
 # 176 entrees, planifiees du 2026-09-17 au 2027-10-30.
+# Ordre de publication : longue traine d'abord.
 #
-# Sources, fusionnees le 2026-09-16 :
-#   - roadmap de ma-bonne-sante.com : 97 mots-cles, compteurs remis a zero
-#     (statuts done et queued compris, a rediger sous un angle different de
-#      l'article deja publie la-bas, les deux blogs etant a nous et sur Inula)
-#   - roadmap editoriale Inula, lignes Site = Biofloral : 79 mots-cles,
-#     hors '5. Refuse'. Une partie est deja traitee sur biofloral.fr : le blog
-#     vise les memes requetes depuis un media externe, c'est voulu (GEO).
+# Champs : kw, category (une des 6 rubriques du site), volume, kd,
+# scheduled_date, status (todo / done / failed), published_date,
+# published_url_fr, published_url_en, error.
 #
-# Classement dans les 6 rubriques : fait sur le mot-cle, pas sur la categorie
-# d'origine. Les clusters de la roadmap Inula sont parfois faux (' degonfler
-# ventre naturellement ' y est range dans ' Enfants & mamans ').
-#
-# Ordre de publication : longue traine d'abord (volume croissant), le blog
-# demarre sans historique. Format documente dans
-# .claude/templates/roadmap-template.yaml
-#
-# REGLE DE DIVERSITE DES CATEGORIES (obligatoire)
-# -----------------------------------------------
-#   1. JAMAIS 2 articles consecutifs (par scheduled_date) de la meme categorie.
-#   2. Sur toute fenetre glissante de 5 articles consecutifs, au moins
-#      3 categories distinctes doivent etre representees.
-# Verifiee a la generation : 0 violation. A revalider a chaque ajout.
+# Regle de diversite des categories : jamais 2 articles consecutifs de la meme
+# categorie, et au moins 3 categories distinctes sur toute fenetre de 5.
 
 articles:
 
