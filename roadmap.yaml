@@ -31,10 +31,10 @@ articles:
     volume: 20
     kd: null
     scheduled_date: "2026-09-19"
-    status: todo
-    published_date: null
-    published_url_fr: null
-    published_url_en: null
+    status: done
+    published_date: "2026-09-19"
+    published_url_fr: "https://carnetvegetal.com/blog/degonfler-ventre-naturellement/"
+    published_url_en: "https://carnetvegetal.com/en/blog/reduce-bloating-naturally/"
     error: null
 
   - kw: "anxiété adolescent"
