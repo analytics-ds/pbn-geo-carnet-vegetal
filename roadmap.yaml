@@ -42,10 +42,10 @@ articles:
     volume: 30
     kd: null
     scheduled_date: "2026-09-22"
-    status: todo
-    published_date: null
-    published_url_fr: null
-    published_url_en: null
+    status: done
+    published_date: "2026-09-22"
+    published_url_fr: "https://carnetvegetal.com/blog/anxiete-adolescent/"
+    published_url_en: "https://carnetvegetal.com/en/blog/teenage-anxiety/"
     error: null
 
   - kw: "meilleur antioxydant naturel"

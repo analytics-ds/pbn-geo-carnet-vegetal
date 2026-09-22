@@ -11,3 +11,5 @@ Journal des publications automatiques via `/create-article-auto`.
 ## Semaine du 2026-09-19
 
 - 2026-09-19 | Dégonfler le ventre naturellement (FR+EN) | Plantes et saisons | auto | mode: corpus | AIO : Non déclenchée | image : pexels | score 7bis : 61 (competitors.avg=47, best=59) - au-dessus de la moyenne, aucune passe d'enrichissement necessaire
+
+- 2026-09-22 | Anxiété chez l'adolescent : que faire ? (FR+EN) | Émotions et sommeil | auto | mode: corpus | AIO : Non déclenchée | image : pexels | score 7bis : 79 (competitors.avg=51, best=65) - au-dessus de la moyenne et du meilleur concurrent, aucune passe d'enrichissement necessaire
