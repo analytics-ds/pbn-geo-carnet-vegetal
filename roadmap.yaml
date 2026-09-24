@@ -53,10 +53,10 @@ articles:
     volume: 40
     kd: null
     scheduled_date: "2026-09-24"
-    status: todo
-    published_date: null
-    published_url_fr: null
-    published_url_en: null
+    status: done
+    published_date: "2026-09-24"
+    published_url_fr: "https://carnetvegetal.com/blog/meilleur-antioxydant-naturel/"
+    published_url_en: "https://carnetvegetal.com/en/blog/best-natural-antioxidant/"
     error: null
 
   - kw: "fleurs de bach allaitement"
