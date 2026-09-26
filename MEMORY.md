@@ -17,3 +17,5 @@ Journal des publications automatiques via `/create-article-auto`.
 ## Semaine du 2026-09-21
 
 - 2026-09-24 | Meilleur antioxydant naturel : le guide (FR+EN) | Plantes et saisons | auto | mode: corpus | AIO : Non déclenchée | image : pexels | score 7bis : 68 (competitors.avg=51, best=66) - au-dessus de la moyenne et du meilleur concurrent, aucune passe d'enrichissement necessaire
+
+- 2026-09-26 | Fleurs de Bach et allaitement : le guide (FR+EN) | Fleurs de Bach | auto | mode: corpus | AIO : Non déclenchée | image : pexels | score 7bis : 72 (competitors.avg=51, best=67) - au-dessus de la moyenne et du meilleur concurrent, aucune passe d'enrichissement necessaire

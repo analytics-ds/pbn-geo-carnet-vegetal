@@ -64,10 +64,10 @@ articles:
     volume: 30
     kd: null
     scheduled_date: "2026-09-26"
-    status: todo
-    published_date: null
-    published_url_fr: null
-    published_url_en: null
+    status: done
+    published_date: "2026-09-26"
+    published_url_fr: "https://carnetvegetal.com/blog/fleurs-de-bach-allaitement/"
+    published_url_en: "https://carnetvegetal.com/en/blog/bach-flowers-and-breastfeeding/"
     error: null
 
   - kw: "enfant qui pleure à l'école"
