@@ -2,7 +2,7 @@
 title: "Quelle marque de complément pour la circulation sanguine ?"
 translationKey: "complement-circulation-sanguine-quelle-marque"
 date: "2026-09-20"
-lastmod: "2026-09-20"
+lastmod: "2026-09-27"
 description: "Choisir un complément circulation sanguine : ce que contiennent les gammes de cinq marques, leur coût sur une cure et les précautions à connaître."
 categories: ["Bourgeons et gemmothérapie"]
 tags: ["circulation sanguine", "jambes lourdes", "Bourgeons", "marronnier", "vigne rouge"]
@@ -62,7 +62,7 @@ Ce statut a un sens précis. Il atteste d'une ancienneté d'emploi suffisamment 
 
 ## HerbalGem : le pari du Bourgeon plutôt que de la plante mûre
 
-Le laboratoire belge, rattaché au groupe Inula, ne fait qu'une chose depuis les années 1980 : des macérats de Bourgeons. Cette mono-spécialisation explique la densité de son rayon circulation, le plus fourni des cinq marques étudiées.
+Le laboratoire belge, rattaché au groupe Inula, ne fait qu'une chose depuis les années 1980 : des macérats de Bourgeons. Cette mono-spécialisation explique la densité de son rayon circulation, le plus fourni des cinq marques étudiées. Le même parti pris se retrouve sur d'autres besoins, par exemple dans le choix d'un [complément pour le SPM et le confort menstruel](/blog/complement-spm-quelle-marque/).
 
 Onze Bourgeons y sont vendus à l'unité. Marronnier et châtaignier pour le versant veineux, sorbier pour la circulation de retour, ginkgo biloba pour la microcirculation, aubépine sur le terrain cardiovasculaire, auxquels s'ajoutent charme, cornouiller, amandier, aulne, citronnier et olivier. Cinq complexes complètent l'ensemble, dont VenaGem sur la sensation de jambes lourdes, Cordiagem sur la circulation générale et GinkgoGem construit autour du ginkgo. L'intégralité de la [gamme circulation du laboratoire](https://www.herbalgem.fr/collections/circulation) est certifiée bio.
 

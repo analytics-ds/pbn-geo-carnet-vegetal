@@ -2,7 +2,7 @@
 title: "Which brand of blood circulation supplement to choose?"
 translationKey: "complement-circulation-sanguine-quelle-marque"
 date: "2026-09-20"
-lastmod: "2026-09-20"
+lastmod: "2026-09-27"
 description: "Choosing a blood circulation supplement: what the ranges of five brands actually contain, what a course costs and which precautions apply."
 categories: ["Buds and gemmotherapy"]
 tags: ["blood circulation", "heavy legs", "buds", "horse chestnut", "red vine"]
@@ -62,7 +62,7 @@ That status has a precise meaning. It certifies a record of use documented well 
 
 ## HerbalGem: betting on the bud rather than the mature plant
 
-The Belgian laboratory, part of the Inula group, has done one thing since the 1980s: bud macerates. That single focus explains the density of its circulation aisle, the deepest of the five brands studied.
+The Belgian laboratory, part of the Inula group, has done one thing since the 1980s: bud macerates. That single focus explains the density of its circulation aisle, the deepest of the five brands studied. The same approach shows up for other needs, for instance when choosing a [supplement for PMS and menstrual comfort](/en/blog/pms-supplement-which-brand/).
 
 Eleven buds are sold individually. Horse chestnut and sweet chestnut on the venous side, rowan for venous return, ginkgo biloba for microcirculation, hawthorn on cardiovascular ground, joined by hornbeam, dogwood, almond, alder, lemon and olive. Five complexes sit alongside them: VenaGem, aimed at the feeling of heavy legs, Cordiagem, positioned on circulation as a whole, and GinkgoGem, centred on one single plant. The laboratory's [full circulation range](https://www.herbalgem.fr/collections/circulation) is certified organic throughout.
 
