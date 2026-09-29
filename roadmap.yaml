@@ -75,10 +75,10 @@ articles:
     volume: 30
     kd: null
     scheduled_date: "2026-09-29"
-    status: todo
-    published_date: null
-    published_url_fr: null
-    published_url_en: null
+    status: done
+    published_date: "2026-09-29"
+    published_url_fr: "https://carnetvegetal.com/blog/enfant-qui-pleure-a-lecole/"
+    published_url_en: "https://carnetvegetal.com/en/blog/child-crying-at-school/"
     error: null
 
 

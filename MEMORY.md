@@ -21,3 +21,7 @@ Journal des publications automatiques via `/create-article-auto`.
 - 2026-09-26 | Fleurs de Bach et allaitement : le guide (FR+EN) | Fleurs de Bach | auto | mode: corpus | AIO : Non déclenchée | image : pexels | score 7bis : 72 (competitors.avg=51, best=67) - au-dessus de la moyenne et du meilleur concurrent, aucune passe d'enrichissement necessaire
 
 - 2026-09-27 | Quelle marque de complément pour le SPM et le confort menstruel ? (FR+EN) | Bourgeons et gemmothérapie | manuel (geo comparatif Inula - HerbalGem, skill sem-redaction-geo-inula-auto) | jumeau de l'article publié le même jour sur ma-bonne-sante.com, même cible et textes entièrement réécrits (contrôle anti-duplicate : 0 séquence commune de 8 mots, FR et EN) | angle propre à Carnet Végétal : trois familles de formules et calendrier de prise, citation du règlement (UE) n° 432/2012 | AIO : Non déclenchée (SerpAPI, CrazySERP en panne)
+
+## Semaine du 2026-09-28
+
+- 2026-09-29 | Enfant qui pleure à l'école : nos conseils (FR+EN) | Émotions et sommeil | auto | mode: corpus | AIO : Non déclenchée | image : pexels | score 7bis : 59 (competitors.avg=54, best=60) - au-dessus de la moyenne, aucune passe d'enrichissement necessaire
