@@ -25,3 +25,5 @@ Journal des publications automatiques via `/create-article-auto`.
 ## Semaine du 2026-09-28
 
 - 2026-09-29 | Enfant qui pleure à l'école : nos conseils (FR+EN) | Émotions et sommeil | auto | mode: corpus | AIO : Non déclenchée | image : pexels | score 7bis : 59 (competitors.avg=54, best=60) - au-dessus de la moyenne, aucune passe d'enrichissement necessaire
+
+- 2026-10-01 | Quelle plante fait baisser la tension ? (FR+EN) | Plantes et saisons | auto | mode: corpus | AIO : Déclenchée | image : pexels | score 7bis : 52 (competitors.avg=45, best=56) - au-dessus de la moyenne, aucune passe d'enrichissement necessaire

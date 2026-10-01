@@ -88,10 +88,10 @@ articles:
     volume: 70
     kd: null
     scheduled_date: "2026-10-01"
-    status: todo
-    published_date: null
-    published_url_fr: null
-    published_url_en: null
+    status: done
+    published_date: "2026-10-01"
+    published_url_fr: "https://carnetvegetal.com/blog/quelle-plante-fait-baisser-la-tension/"
+    published_url_en: "https://carnetvegetal.com/en/blog/which-plant-lowers-blood-pressure/"
     error: null
 
   - kw: "confiance en soi adolescent"
