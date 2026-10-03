@@ -99,10 +99,10 @@ articles:
     volume: 40
     kd: null
     scheduled_date: "2026-10-03"
-    status: todo
-    published_date: null
-    published_url_fr: null
-    published_url_en: null
+    status: done
+    published_date: "2026-10-03"
+    published_url_fr: "https://carnetvegetal.com/blog/confiance-en-soi-adolescent/"
+    published_url_en: "https://carnetvegetal.com/en/blog/teenage-self-confidence/"
     error: null
 
   - kw: "cure détox foie"
